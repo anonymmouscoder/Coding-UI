@@ -3,7 +3,7 @@
 <html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.3.0' expr:dir='data:blog.languageDirection' lang='id' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:dmata='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   &lt;head&gt;
   
-  <b:if cond='data:view.isError'><title>Error 404: Page Not Found</title></b:if>
+  <b:if cond='data:view.isError'><title>Erreur 404 - Page introuvable</title></b:if>
   <b:if cond='!data:view.isMultipleItems'><title><data:blog.pageName/></title></b:if>
   <b:if cond='data:view.isMultipleItems'>
     <b:if cond='data:view.isHomepage'><title><data:blog.pageTitle/></title>
@@ -12,9 +12,9 @@
       <b:if cond='data:view.search.label'>
         <title><data:blog.pageName/> - <data:blog.title/></title>
         <b:else/>
-        <title>Recent post: <data:blog.title/></title>
+        <title>Poste récent: <data:blog.title/></title>
       </b:if>
-      <b:if cond='data:view.isArchive'><title>Blog archive in: <data:blog.pageName/></title></b:if>
+      <b:if cond='data:view.isArchive'><title>Archive du blog: <data:blog.pageName/></title></b:if>
     </b:if>
   </b:if>
   
@@ -108,9 +108,9 @@
   <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
   <meta content='IE=Edge' http-equiv='X-UA-Compatible'/>
   <meta content='Indonesia' name='geo.placename'/>
-  <meta content='id' name='geo.country'/>
-  <meta content='ID-BT' name='geo.region'/>
-  <meta content='id' name='language'/>
+  <meta content='SN' name='geo.country'/>
+  <meta content='DK-SN' name='geo.region'/>
+  <meta content='fr' name='language'/>
   <meta content='global' name='target'/>
   <meta content='global' name='distribution'/>
   <meta content='general' name='rating'/>
@@ -205,23 +205,7 @@
 <Variable name="body.font" description="Font body" type="font" default="$(fontBody)" value="&#39;Nunito Sans&#39;, sans-serif"/>
 <Variable name="heading.font" description="Font heading" type="font" default="$(fontBody)" value="Poppins, sans-serif"/>
 </Group>
-*/
 
-/*
-Name      : ONE UI Premium Template
-Version   : 1.0
-Date      : November 18, 2020
-Type      : Premium
-Designer  : HIVE-Store
-Website   : https://hive-store.com/
-
-============================================================================
-NOTE :
-This theme is premium (paid).
-You can only get it by purchasing officially.
-If you get it for free through any method, that means you get it illegally.
-============================================================================
-*/
 
 body#layout{width:922px}
 body#layout .mainContainer{display:flex;}
